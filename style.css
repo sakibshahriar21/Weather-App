@@ -7,6 +7,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background: #222;
     background-image: url('https://source.unsplash.com/1920x1080/?landscape');
+    font-size: 120%;
 }
 
 .card {
@@ -47,5 +48,15 @@ input.search-bar{
     color: white;
     font-family: inherit;
     font-size: 105%;
-    width: (100% - 100px);
+    width: calc(100% - 100px);
+    
+}
+
+button:hover {
+    background: #7c7c7c6b;
+  }
+
+h1.temp {
+    margin: 0;
+    margin-bottom: 0.4em;
 }
